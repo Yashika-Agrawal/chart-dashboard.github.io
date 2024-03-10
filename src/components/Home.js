@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./Navbar";
 import BarCharts from "./BarCharts";
 import PieCharts from "./PieCharts";
-import { EditText, EditTextarea } from "react-edit-text";
+// import { EditText, EditTextarea } from "react-edit-text";
 import "react-edit-text/dist/index.css";
 
 const Home = () => {
@@ -24,9 +24,13 @@ const Home = () => {
       {/* <EditText showEditButton /> */}
       {/* <EditTextarea /> */}
 
-      <div className="flex flex-row items-center justify-around mt-24">
-        <PieCharts isDarkMode={isDarkMode} />
-        <BarCharts isDarkMode={isDarkMode} />
+      <div className="flex flex-col md:flex-row   items-center justify-around mt-24 bg-yellow-400">
+        <div>
+          <PieCharts isDarkMode={isDarkMode} />
+        </div>
+        <div>
+          <BarCharts isDarkMode={isDarkMode} />
+        </div>
       </div>
     </div>
   );
