@@ -20,7 +20,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
             {isDarkMode ? "Light Mode" : "Dark Mode"}
           </button>
         </div>
-        <div className="mr-2 xxs:hidden">Yashika Agrawal</div>
+        {/* <div className="mr-2 xxs:hidden">Yashika Agrawal</div> */}
         <img
           src={logo}
           alt="User Profile"

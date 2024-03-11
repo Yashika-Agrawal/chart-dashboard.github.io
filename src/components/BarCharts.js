@@ -28,7 +28,7 @@ const BarCharts = ({ isDarkMode }) => {
   return (
     <div>
       <h1
-        className={`${
+        className={`text-center ${
           isDarkMode ? "text-white" : "text-black"
         } mb-24 font-bold text-2xl`}
       >
