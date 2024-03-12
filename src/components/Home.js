@@ -1,8 +1,8 @@
 // Home.js
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import BarCharts from "./BarCharts";
-import PieCharts from "./PieCharts";
+// import BarCharts from "./BarCharts";
+// import PieCharts from "./PieCharts";
 // import { EditText, EditTextarea } from "react-edit-text";
 import "react-edit-text/dist/index.css";
 import PieChart from "./Piechart";
